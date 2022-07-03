@@ -1,0 +1,87 @@
+@media screen and (max-width: 900px) {
+    .hero-wrapper{
+        display: block;
+    }
+
+    .left-block{
+        margin: 0 auto 50px;
+        width: 70%;
+    }
+
+    .header-of-site h1{
+        font-size: 40px;
+    }
+
+    body{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:673px) {
+    .header-of-site h1{
+        font-size: 33px;
+    }
+
+    .btn{
+        display: block;
+        text-align: center;
+    }
+
+    .btn button{
+        padding: 11px 27px;
+    }
+
+    .row{
+        display: block;
+        text-align: center;
+    }
+
+    .header-list{
+        justify-content: center;
+    }
+
+    .row img{
+        margin-left: 20px;
+    }
+
+    .footer{
+        padding: 23px 0 19px;
+    }
+
+    .contact-wrapper{
+        display: block;
+    }
+
+    .contact-both{
+        padding: 30px 0;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .header-list-items:not(:last-child){
+        margin-right: 40px;
+    }
+    
+    .row img{
+        width: 98px;
+        height: auto;
+    }
+
+    body{
+        font-size: 12px;
+    }
+
+    .header-of-site h1{
+        font-size: 25px;
+    }
+
+    .describe{
+        padding: 18px 26px 21px;
+    }
+
+    .name-of-input{
+        font-size: 12px;
+    }
+}

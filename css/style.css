@@ -1,0 +1,258 @@
+.header{
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 13px 0 31px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list{
+    display: flex;
+    list-style: none;
+    line-height: 18px;
+}
+
+.header-list-items a:hover{
+    color: #d22856;
+}
+
+.header-list-items a:active{
+    opacity: 0.6;
+}
+
+.header-list-items:not(:last-child){
+    margin-right: 80px;
+}
+
+.row img{
+    width: 147px;
+    height: 40px;
+}
+
+.header-of-site{
+    padding: 52px 0 63px;
+    text-align: center;
+}
+
+.header-of-site h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 45px;
+    color: #000;
+}
+
+.header-of-site p{
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.name-of-input{
+    font-size: 14px;
+    color: #d22856;
+    text-transform: uppercase;
+    padding-right: 16px;
+}
+
+.hero-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+input::placeholder{
+    color: inherit;
+    font-size: inherit;
+}
+
+.form-row-hero{
+    display: flex;
+    align-items: center;
+}
+
+.form-row-hero input{
+    padding: 19px 19px 19px 22px;
+    width: 100%;
+    border: 2px solid #e5e5e5;
+}
+
+.form-row-hero input:hover{
+    border: 2px solid #000;
+}
+
+.form-row-hero input:focus{
+    outline: none !important;
+    border: 2px solid #d22856;
+}
+
+.form-row-hero:first-child{
+    margin-bottom: 56px;
+}
+
+.form-row-hero:nth-child(2){
+    margin-bottom: 52px;
+}
+
+.left-block{
+    width: 46%;
+    padding-top: 20px;
+}
+
+.right-block-fieldset{
+    margin: 0;
+    padding: 45px 40px 62px;
+    border: 2px solid #e7e7e7;
+}
+
+.right-block-fieldset label{
+    display: block;
+    margin-left: 32px;
+}
+
+.right-block-fieldset label:not(:last-child){
+    margin-bottom: 43px;
+}
+
+.right-block-fieldset span{
+    position: relative;
+    padding-left: 60px;
+}
+
+.right-block-fieldset input + span::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #e5e5e5;
+    position: absolute;
+    left: 0;
+    top: -8px;
+}
+
+.radio-chng{
+    display: none;
+}
+
+.right-block-fieldset legend{
+    padding: 0 20px;
+    text-align: center;
+}
+
+.right-block-fieldset input + span:hover::before{
+    border: 2px solid #000;
+}
+
+.right-block-fieldset input + span:active::before{
+    border: 2px solid #d32e5b;
+    transition: 0.3s;
+}
+
+.radio-chng:checked + span::before{
+    background-image: url('../images/dop.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.contact-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-both{
+    width: 46%;
+}
+
+.contact-wrapper span{
+    margin-left: 18px;
+    font-size: 14px;
+}
+
+.contact-left{
+    padding: 21px 0 15px 39px;
+}
+
+.contact-right{
+    padding: 19px 43px 15px 0;
+}
+
+.contact-fieldset{
+    border: 2px solid #e5e5e5;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.contact-fieldset legend{
+    padding: 0 23px;
+    text-align: center;
+}
+
+.contact-fieldset input{
+    padding: 20px 22px;
+    position: relative;
+    border: 2px solid #e5e5e5;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.describe{
+    padding: 36px 57px 43px;
+    border: 2px solid #e5e5e5;
+    margin-bottom: 42px;
+}
+
+.describe legend{
+    text-align: center;
+    padding: 0 22px;
+}
+
+.describe textarea{
+    resize: none;
+    height: 127px;
+    width: 100%;
+    padding: 22px 18px;
+    border: 2px solid #e5e5e5;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 92px;
+}
+
+.btn button{
+    background-color: #2aab6d;
+    color: #fff;
+    padding: 22px 55px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn p{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.btn span{
+    color: #d22856;
+}
+
+.footer p{
+    font-size: 12px;
+    color: #4e5b69;
+    text-align: end;
+}
+
+.footer{
+    padding: 46px 0 38px;
+    background-color: #e5e5e5;
+}

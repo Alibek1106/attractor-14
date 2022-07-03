@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <img src="images/logo.png" alt="pink">
+                    <ul class="header-list">
+                        <li class="header-list-items"><a href="#">Главная</a></li>
+                        <li class="header-list-items"><a href="#">Фотографии</a></li>
+                        <li class="header-list-items"><a href="#">Конкурс</a></li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="header-of-site">
+            <div class="container">
+                <h1>Конкурс на путешествие с Пинк</h1>
+                <p>Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
+            </div>
+        </section>
+        <section class="hero-form">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="left-block">
+                        <form action="">
+                            <div class="form-row-hero">
+                                <span class="name-of-input">
+                                    Фамилия:
+                                </span>
+                                <input type="text" placeholder="Укажите фамилию *" required>
+                            </div>
+                            <div class="form-row-hero">
+                                <span class="name-of-input">
+                                    Имя:
+                                </span>
+                                <input type="text" placeholder="Введите ваше имя *" required>
+                            </div>
+                            <div class="form-row-hero">
+                                <span class="name-of-input">
+                                    Отчество:
+                                </span>
+                                <input type="text" placeholder="Укажите ваше отчество">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="right-block">
+                        <form action="">
+                            <fieldset class="right-block-fieldset">
+                                <legend class="name-of-input">с каким приложением путешествовали</legend>
+                                <label><input type="radio" class="radio-chng" name="pink-on"><span>Pink для iOS</span></label>
+                                <label><input type="radio" class="radio-chng" name="pink-on"><span>Pink на Android</span></label>
+                                <label><input type="radio" class="radio-chng" name="pink-on"><span>Windows Phone</span></label>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <form action="">
+                    <fieldset class="contact-fieldset">
+                        <legend class="name-of-input">Контактная информация</legend>
+                        <div class="contact-wrapper">
+                            <div class="contact-left contact-both">
+                                <div class="empty">
+                                    <input type="tel" placeholder="Ваш номер телефона">
+                                </div>
+                                <span class="name-of-input">Номер телефона</span>
+                            </div>
+                            <div class="contact-right contact-both">
+                                <input type="email" required placeholder="Ваш email *">
+                                <span class="name-of-input">Адрес почты</span>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+                <form action="">
+                    <fieldset class="describe">
+                        <legend class="name-of-input">
+                            Опишите свои эмоции
+                        </legend>
+                        <textarea>Можно прям в красках, не стесняясь в выражениях</textarea>
+                    </fieldset>
+                </form>
+                <div class="btn">
+                    <button type="submit">Отправить форму</button>
+                    <p><span>*</span> — обязательные для заполнения поля</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>© Copyright  Name Studio</p>
+        </div>
+    </footer>
+    <script src="nav.js"></script>
+</body>
+</html>
